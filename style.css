@@ -396,6 +396,165 @@ header {
   margin-left: -20px;
 }
 
+
+/* media qury  */
+
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media (max-width: 900px) {
+
+  .main {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .mini-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin: 40px 20px 20px;
+    font-size: 32px;
+  }
+
+  .hero img {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+  }
+
+  .btn {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .about {
+    width: 90%;
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 30px;
+  }
+
+  .about img {
+    margin: auto;
+  }
+
+  .about h1 {
+    font-size: 32px;
+  }
+
+  .about p {
+    font-size: 20px;
+  }
+
+  .p-txt,
+  .headtxt,
+  .hadithtxt,
+  .sch-txt,
+  .sch-p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .p-txt {
+    margin-top: 60px;
+    font-size: 36px;
+  }
+
+  .headtxt {
+    font-size: 40px;
+  }
+
+  .sch-txt {
+    font-size: 30px;
+  }
+
+  .mini-pillar {
+    width: 90%;
+    margin: 60px auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .plr {
+    text-align: center;
+  }
+
+  .book {
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about {
+    padding: 30px 20px;
+  }
+
+  .about h1 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .p-txt,
+  .headtxt,
+  .sch-txt {
+    font-size: 28px;
+  }
+
+  .mini-pillar {
+    grid-template-columns: 1fr;
+  }
+
+  .prayer-section,
+  .hadith-section,
+  .scholars-section {
+    grid-template-columns: 1fr;
+  }
+
+  .prayer-card,
+  .hadith-card,
+  .scholar-card {
+    padding: 20px;
+  }
+}
+
 footer {
   border-bottom: solid 7px #0d6e4f;
   color: #555555d7;
